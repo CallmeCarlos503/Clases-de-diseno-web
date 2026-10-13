@@ -26,10 +26,10 @@
             <?= htmlspecialchars($d['NOMBRE']) ?>
         </td>
         <td colspan="2">
-            <a href="" class="btn btn-success">
+            <a href="index.php?controlador=especie&accion=editar&id=<?= $d['ID']?>" class="btn btn-success">
                 Editar
             </a>
-            <a href="" class="btn btn-danger">
+            <a href="index.php?controlador=especie&accion=eliminar&id=<?= $d['ID'] ?>" class="btn btn-danger" onclick="return confirm('¿Deseas eliminar esta especie?')">
                 Eliminar
             </a>
         </td>

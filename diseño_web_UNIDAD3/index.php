@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 if (isset($_GET['controlador'])) {
     $controladorURL =$_GET['controlador'];
 }else{
