@@ -16,7 +16,7 @@
         <a href="index.php?controlador=especie&accion=index" class="nav-item">
             Especie
         </a>
-        <a href="" class="nav-item">
+        <a href="index.php?controlador=mascota&accion=index" class="nav-item">
             Mascotas
         </a>
         <a href="" class="nav-item">
